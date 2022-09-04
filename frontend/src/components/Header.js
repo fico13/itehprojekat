@@ -6,7 +6,7 @@ const Header = () => {
     <AppBar>
         <Toolbar>
             <Typography>
-            BlogApp
+            
             </Typography>
         </Toolbar>
     </AppBar>
