@@ -13,6 +13,7 @@ const UserBlogs = () => {
   };
   useEffect(() => {
     sendRequest().then((data) => setUser(data.user));
+    // eslint-disable-next-line
   }, []);
   console.log(user);
   return (

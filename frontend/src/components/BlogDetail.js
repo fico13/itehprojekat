@@ -32,6 +32,7 @@ const BlogDetail = () => {
         description: data.blog.description,
       });
     });
+    // eslint-disable-next-line
   }, [id]);
   const sendRequest = async () => {
     const res = await axios
