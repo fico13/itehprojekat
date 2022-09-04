@@ -1,6 +1,12 @@
 import express from "express";
-import { addBlog, deleteBlog, getAllBlogs, getById, getByUserId, updateBlog } from "../controllers/blog-controller";
-
+import {
+  addBlog,
+  deleteBlog,
+  getAllBlogs,
+  getById,
+  getByUserId,
+  updateBlog,
+} from "../controllers/blog-controller";
 const blogRouter = express.Router();
 
 blogRouter.get("/", getAllBlogs);
