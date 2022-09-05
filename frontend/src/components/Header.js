@@ -41,19 +41,19 @@ const Header = () => {
                 className={classes.font}
                 LinkComponent={Link}
                 to="/blogs"
-                label="All Blogs"
+                label="Sve objave"
               />
               <Tab
                 className={classes.font}
                 LinkComponent={Link}
                 to="/myBlogs"
-                label="My Blogs"
+                label="Moje objave"
               />
               <Tab
                 className={classes.font}
                 LinkComponent={Link}
                 to="/blogs/add"
-                label="Add Blog"
+                label="Dodaj objavu"
               />
             </Tabs>
           </Box>
