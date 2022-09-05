@@ -98,13 +98,13 @@ const Auth = () => {
             sx={{ borderRadius: 3, marginTop: 3 }}
             color="warning"
           >
-            Submit
+            Potvrdi
           </Button>
           <Button
             onClick={() => setIsSignup(!isSignup)}
             sx={{ borderRadius: 3, marginTop: 3 }}
           >
-            Change To {isSignup ? "Login" : "Signup"}
+            Prebaci se na {isSignup ? "Login" : "Signup"}
           </Button>
         </Box>
       </form>

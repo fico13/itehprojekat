@@ -77,9 +77,9 @@ const BlogDetail = () => {
               variant="h2"
               textAlign={"center"}
             >
-              Post Your Blog
+              Okačite vašu objavu
             </Typography>
-            <InputLabel sx={labelStyles}>Title</InputLabel>
+            <InputLabel sx={labelStyles}>Naslov</InputLabel>
             <TextField
               name="title"
               onChange={handleChange}
@@ -87,7 +87,7 @@ const BlogDetail = () => {
               margin="auto"
               variant="outlined"
             />
-            <InputLabel sx={labelStyles}>Description</InputLabel>
+            <InputLabel sx={labelStyles}>Opis</InputLabel>
             <TextField
               name="description"
               onChange={handleChange}
@@ -102,7 +102,7 @@ const BlogDetail = () => {
               color="warning"
               type="submit"
             >
-              Submit
+              Potvrdi
             </Button>
           </Box>
         </form>

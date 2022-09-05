@@ -61,10 +61,10 @@ const AddBlog = () => {
             variant="h2"
             textAlign={"center"}
           >
-            Post Your Blog
+            Okačite vašu objavu
           </Typography>
           <InputLabel className={classes.font} sx={labelStyles}>
-            Title
+            Naslov
           </InputLabel>
           <TextField
             className={classes.font}
@@ -75,7 +75,7 @@ const AddBlog = () => {
             variant="outlined"
           />
           <InputLabel className={classes.font} sx={labelStyles}>
-            Description
+            Opis
           </InputLabel>
           <TextField
             className={classes.font}
@@ -86,7 +86,7 @@ const AddBlog = () => {
             variant="outlined"
           />
           <InputLabel className={classes.font} sx={labelStyles}>
-            ImageURL
+            Link do slike
           </InputLabel>
           <TextField
             className={classes.font}
@@ -102,7 +102,7 @@ const AddBlog = () => {
             color="warning"
             type="submit"
           >
-            Submit
+            Potvrdi
           </Button>
         </Box>
       </form>
