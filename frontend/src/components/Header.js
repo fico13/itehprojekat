@@ -69,7 +69,7 @@ const Header = () => {
                 sx={{ margin: 1, borderRadius: 10 }}
                 color="warning"
               >
-                Login
+                Prijava
               </Button>
               <Button
                 LinkComponent={Link}
@@ -78,7 +78,7 @@ const Header = () => {
                 sx={{ margin: 1, borderRadius: 10 }}
                 color="warning"
               >
-                Signup
+                Registracija
               </Button>
             </>
           )}
@@ -91,7 +91,7 @@ const Header = () => {
               sx={{ margin: 1, borderRadius: 10 }}
               color="warning"
             >
-              Logout
+              Odjavi se
             </Button>
           )}
         </Box>

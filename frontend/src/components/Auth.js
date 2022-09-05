@@ -65,14 +65,14 @@ const Auth = () => {
           borderRadius={5}
         >
           <Typography variant="h2" padding={3} textAlign="center">
-            {isSignup ? "Signup" : "Login"}
+            {isSignup ? "Registracija" : "Prijava"}
           </Typography>
           {isSignup && (
             <TextField
               name="name"
               onChange={handleChange}
               value={inputs.name}
-              placeholder="Name"
+              placeholder="Ime korisnika"
               margin="normal"
             />
           )}{" "}
@@ -89,7 +89,7 @@ const Auth = () => {
             onChange={handleChange}
             value={inputs.password}
             type={"password"}
-            placeholder="Password"
+            placeholder="Lozinka"
             margin="normal"
           />
           <Button
@@ -104,7 +104,7 @@ const Auth = () => {
             onClick={() => setIsSignup(!isSignup)}
             sx={{ borderRadius: 3, marginTop: 3 }}
           >
-            Prebaci se na {isSignup ? "Login" : "Signup"}
+            Prebaci se na {isSignup ? "Prijava" : "Registracija"}
           </Button>
         </Box>
       </form>
